@@ -6,8 +6,8 @@ import HireUs from './components/HireUs'
 
 export default (
     <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route path="/payment" component={MakeAPayment}/>
-        <Route path="/hire" component={HireUs}/>
+        <Route component={Home} exact path="/" />
+        <Route component={MakeAPayment}  path="/payment" />
+        <Route component={HireUs}  path="/hire" />
     </Switch>
 )

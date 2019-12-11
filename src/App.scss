@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+  margin: 2.5rem auto;
+  width: 100%;
+  div{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem auto;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
