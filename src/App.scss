@@ -5,17 +5,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.nav{
-  display: flex;
-  margin: 2.5rem auto;
-  width: 100%;
-  div{
-    height: 10rem;
-    width: 10rem;
-    margin: 1rem auto;
-    background: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
+
+$green5: #1F5640;
+$green4: #00DEA3;
+$green3: #169A3E;
+$green2: #3BA76E;
+$green1: #62CD7E;
+
+
+

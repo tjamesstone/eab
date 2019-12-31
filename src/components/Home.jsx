@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.scss';
+import {Link} from 'react-router-dom'
 
 
 export default class Home extends React.Component{
@@ -18,13 +19,13 @@ export default class Home extends React.Component{
         </header>
         <div className="nav">
           <div className="hire">
-            <h2>Hire Us</h2>
+            <Link to="/hire"><h2>Hire Us</h2></Link>
           </div>
           <div className="pay">
-            <h2>Make A Payment</h2>
+            <Link to="/payment"><h2>Make A Payment</h2></Link>
           </div>
           <div className="pay">
-            <h2>Consulting</h2>
+              <Link to="/consulting"><h2>Consulting</h2></Link> 
           </div>
         </div>
         <footer>
