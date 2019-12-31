@@ -1,0 +1,19 @@
+
+.home{
+
+
+.nav{
+    display: flex;
+    margin: 2.5rem auto;
+    width: 100%;
+    div{
+      height: 10rem;
+      width: 10rem;
+      margin: 1rem auto;
+      background: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
