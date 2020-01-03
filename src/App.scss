@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC&display=swap');
+
 .App {
   text-align: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
+a{
+ text-decoration: none;
+}
+
+
+$title5: 'Playfair Display SC', serif;
+$body1: 'Open Sans', sans-serif;
+
 
 $green5: #1F5640;
 $green4: #00DEA3;

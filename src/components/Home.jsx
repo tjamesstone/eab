@@ -19,13 +19,13 @@ export default class Home extends React.Component{
                 </header>
                 <nav className="nav" >
                     <div className="hire">
-                        <Link to="/hire"><h2>Hire Us</h2></Link>
+                        <Link to="/hire"><h2 className="navtitle" >Hire Us</h2></Link>
                     </div>
                     <div className="pay">
-                        <Link to="/payment"><h2>Make A Payment</h2></Link>
+                        <Link to="/payment"><h2 className="navtitle" >Make A Payment</h2></Link>
                     </div>
                     <div className="pay">
-                        <Link to="/consulting"><h2>Consulting</h2></Link> 
+                        <Link to="/consulting"><h2 className="navtitle" >Consulting</h2></Link> 
                     </div>
                 </nav>
                 <footer>
